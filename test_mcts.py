@@ -573,9 +573,9 @@ if __name__ == "__main__":
 
     pos, opt_sols = read_concorde_file("testset/tsp{}_test_concorde.txt".format(N), N, test_instance_num[N])
     if N != 10000:
-        opt_sols = opt_sols[:, :-1]
+        opt_sols = opt_sols[:, :-1]-1
     else:
-        opt_sols =  np.stack([np.arange(N)+1 for i in range(test_instance_num[N])], 0)
+        opt_sols =  np.stack([np.arange(N) for i in range(test_instance_num[N])], 0)
 
     heatmap_list = get_heatmap_list(opts.method, N, test_instance_num[N], desc=opts.desc, topk=opts.topk)
 

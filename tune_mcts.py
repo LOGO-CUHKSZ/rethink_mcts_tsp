@@ -51,7 +51,7 @@ class Model:
 
         tsp_instances = np.load('./trainset/train_tsp_%d.npy' % opts.num_of_nodes)[:opts.num_instances]
         self.tsp_instances = tsp_instances
-        self.train_sols = np.stack([np.arange(opts.num_of_nodes)+1 for i in range(opts.num_instances)], 0)
+        self.train_sols = np.stack([np.arange(opts.num_of_nodes) for i in range(opts.num_instances)], 0)
         if opts.method == 'zero':
             self.heatmap = np.zeros((opts.num_instances, opts.num_of_nodes, opts.num_of_nodes))
         elif opts.method == 'difusco-r':
