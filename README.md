@@ -1,6 +1,6 @@
 # Rethinking the "Heatmap + Monte Carlo Tree Search" Paradigm for Large Scale TSP
 
-Implementation of our paper [Rethinking the "Heatmap + Monte Carlo Tree Search" Paradigm for Large Scale TSP]().
+Implementation of our paper [Rethinking the "Heatmap + Monte Carlo Tree Search" Paradigm for Large Scale TSP](https://arxiv.org/abs/2411.09238).
 
 ## Installation
 
