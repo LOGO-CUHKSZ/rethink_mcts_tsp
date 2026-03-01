@@ -1,6 +1,6 @@
-# Rethinking the "Heatmap + Monte Carlo Tree Search" Paradigm for Large Scale TSP
+# Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers
 
-Implementation of our paper [Rethinking the "Heatmap + Monte Carlo Tree Search" Paradigm for Large Scale TSP](https://arxiv.org/abs/2411.09238).
+Implementation of our paper [Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers](https://openreview.net/forum?id=H6PLJnnK6e).
 
 ## Installation
 
